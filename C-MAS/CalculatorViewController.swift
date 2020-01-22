@@ -8,6 +8,8 @@
 
 import UIKit
 import Firebase
+import FirebaseDatabase
+import FirebaseCore
 
 class CalculatorViewController: UIViewController {
 
@@ -15,6 +17,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var secondNumber: UITextField!
     @IBOutlet weak var outputSum: UILabel!
     var firebaseSum: Int!
+    var ref: DatabaseReference!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,8 +26,12 @@ class CalculatorViewController: UIViewController {
     }
     
     @IBAction func add(_ sender: Any) {
+        
+        ref = Database.database().reference()
         firebaseSum = Int(firstNumber.text!)! + Int(secondNumber.text!)!
+        self.ref.child("lastNumber").setValue(["last": firebaseSum])
         outputSum.text = String(Int(firstNumber.text!)! + Int(secondNumber.text!)!)
+        
     }
     
     
