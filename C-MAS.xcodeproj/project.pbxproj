@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		102DC61EAA8C92495E41021C /* Pods_C_MAS_C_MASUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D17BAA638A4EFA3053C036A /* Pods_C_MAS_C_MASUITests.framework */; };
+		3A92BE1723D80E9800A540C9 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A92BE1623D80E9800A540C9 /* CalculatorViewController.swift */; };
 		3CCFF7571FE44B2668067661 /* Pods_C_MAS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C273AA85C368A5D41BE5AF6 /* Pods_C_MAS.framework */; };
 		51B0252823D80CA500D955B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0252723D80CA500D955B0 /* AppDelegate.swift */; };
 		51B0252A23D80CA500D955B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0252923D80CA500D955B0 /* SceneDelegate.swift */; };
@@ -44,6 +45,7 @@
 		004AF175443C026580AE1770 /* Pods-C-MASTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-MASTests.release.xcconfig"; path = "Target Support Files/Pods-C-MASTests/Pods-C-MASTests.release.xcconfig"; sourceTree = "<group>"; };
 		0D17BAA638A4EFA3053C036A /* Pods_C_MAS_C_MASUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_C_MAS_C_MASUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3506393290CC987FFA48DB33 /* Pods-C-MAS-C-MASUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-C-MAS-C-MASUITests.release.xcconfig"; path = "Target Support Files/Pods-C-MAS-C-MASUITests/Pods-C-MAS-C-MASUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3A92BE1623D80E9800A540C9 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		51B0252423D80CA500D955B0 /* C-MAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "C-MAS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51B0252723D80CA500D955B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51B0252923D80CA500D955B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				51B0253023D80CA800D955B0 /* Assets.xcassets */,
 				51B0253223D80CA800D955B0 /* LaunchScreen.storyboard */,
 				51B0253523D80CA800D955B0 /* Info.plist */,
+				3A92BE1623D80E9800A540C9 /* CalculatorViewController.swift */,
 			);
 			path = "C-MAS";
 			sourceTree = "<group>";
@@ -170,7 +173,6 @@
 				57D6C205FD96AF2F0C27F417 /* Pods-C-MASTests.debug.xcconfig */,
 				004AF175443C026580AE1770 /* Pods-C-MASTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +420,7 @@
 			files = (
 				51B0252C23D80CA500D955B0 /* ViewController.swift in Sources */,
 				51B0252823D80CA500D955B0 /* AppDelegate.swift in Sources */,
+				3A92BE1723D80E9800A540C9 /* CalculatorViewController.swift in Sources */,
 				51B0252A23D80CA500D955B0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
